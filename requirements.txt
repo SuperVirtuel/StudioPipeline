@@ -1,0 +1,11 @@
+# Core dependencies
+mkdocs>=1.5.0
+mkdocs-material>=9.0.0
+
+# Optional MkDocs plugins
+mkdocstrings[python]>=0.24.0
+pymdown-extensions>=10.0
+
+# Studio pipeline dependencies (to be added as needed)
+# shotgun_api3  # Shotgrid API
+# bpy  # Blender Python API (typically installed with Blender)
