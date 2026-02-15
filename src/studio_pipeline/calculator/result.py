@@ -35,5 +35,4 @@ class CalculationResult:
         if self.success:
             op_val = self.operation.value
             return f"{self.operand1} {op_val} {self.operand2} = {self.result}"
-        else:
-            return f"Error: {self.error}"
+        return f"Error: {self.error}"
